@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		209FA7AF1CB3C56C00DF0CC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 209FA7AE1CB3C56C00DF0CC8 /* main.m */; };
+		209FA7B21CB3C56C00DF0CC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 209FA7B11CB3C56C00DF0CC8 /* AppDelegate.m */; };
+		209FA7B51CB3C56C00DF0CC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 209FA7B41CB3C56C00DF0CC8 /* ViewController.m */; };
+		209FA7B81CB3C56C00DF0CC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209FA7B61CB3C56C00DF0CC8 /* Main.storyboard */; };
+		209FA7BA1CB3C56C00DF0CC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209FA7B91CB3C56C00DF0CC8 /* Assets.xcassets */; };
+		209FA7BD1CB3C56C00DF0CC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209FA7BB1CB3C56C00DF0CC8 /* LaunchScreen.storyboard */; };
+		209FA7D61CB3C5E400DF0CC8 /* JQSideSlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 209FA7C61CB3C5E400DF0CC8 /* JQSideSlipViewController.m */; };
+		209FA7D71CB3C5E400DF0CC8 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 209FA7C91CB3C5E400DF0CC8 /* LeftViewController.m */; };
+		209FA7D81CB3C5E400DF0CC8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 209FA7CB1CB3C5E400DF0CC8 /* MainViewController.m */; };
+		209FA7D91CB3C5E400DF0CC8 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 209FA7CD1CB3C5E400DF0CC8 /* TabBarController.m */; };
+		209FA7DA1CB3C5E400DF0CC8 /* ViewControllerFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 209FA7CF1CB3C5E400DF0CC8 /* ViewControllerFour.m */; };
+		209FA7DB1CB3C5E400DF0CC8 /* ViewControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 209FA7D11CB3C5E400DF0CC8 /* ViewControllerOne.m */; };
+		209FA7DC1CB3C5E400DF0CC8 /* ViewControllerThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 209FA7D31CB3C5E400DF0CC8 /* ViewControllerThree.m */; };
+		209FA7DD1CB3C5E400DF0CC8 /* ViewControllerTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 209FA7D51CB3C5E400DF0CC8 /* ViewControllerTwo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		209FA7AA1CB3C56C00DF0CC8 /* JQSideSlipExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JQSideSlipExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		209FA7AE1CB3C56C00DF0CC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		209FA7B01CB3C56C00DF0CC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		209FA7B11CB3C56C00DF0CC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		209FA7B31CB3C56C00DF0CC8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		209FA7B41CB3C56C00DF0CC8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		209FA7B71CB3C56C00DF0CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		209FA7B91CB3C56C00DF0CC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		209FA7BC1CB3C56C00DF0CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		209FA7BE1CB3C56C00DF0CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		209FA7C51CB3C5E400DF0CC8 /* JQSideSlipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JQSideSlipViewController.h; sourceTree = "<group>"; };
+		209FA7C61CB3C5E400DF0CC8 /* JQSideSlipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JQSideSlipViewController.m; sourceTree = "<group>"; };
+		209FA7C81CB3C5E400DF0CC8 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		209FA7C91CB3C5E400DF0CC8 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		209FA7CA1CB3C5E400DF0CC8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		209FA7CB1CB3C5E400DF0CC8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		209FA7CC1CB3C5E400DF0CC8 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		209FA7CD1CB3C5E400DF0CC8 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		209FA7CE1CB3C5E400DF0CC8 /* ViewControllerFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerFour.h; sourceTree = "<group>"; };
+		209FA7CF1CB3C5E400DF0CC8 /* ViewControllerFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerFour.m; sourceTree = "<group>"; };
+		209FA7D01CB3C5E400DF0CC8 /* ViewControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerOne.h; sourceTree = "<group>"; };
+		209FA7D11CB3C5E400DF0CC8 /* ViewControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerOne.m; sourceTree = "<group>"; };
+		209FA7D21CB3C5E400DF0CC8 /* ViewControllerThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerThree.h; sourceTree = "<group>"; };
+		209FA7D31CB3C5E400DF0CC8 /* ViewControllerThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerThree.m; sourceTree = "<group>"; };
+		209FA7D41CB3C5E400DF0CC8 /* ViewControllerTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerTwo.h; sourceTree = "<group>"; };
+		209FA7D51CB3C5E400DF0CC8 /* ViewControllerTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTwo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		209FA7A71CB3C56C00DF0CC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		209FA7A11CB3C56C00DF0CC8 = {
+			isa = PBXGroup;
+			children = (
+				209FA7AC1CB3C56C00DF0CC8 /* JQSideSlipExample */,
+				209FA7AB1CB3C56C00DF0CC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		209FA7AB1CB3C56C00DF0CC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				209FA7AA1CB3C56C00DF0CC8 /* JQSideSlipExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		209FA7AC1CB3C56C00DF0CC8 /* JQSideSlipExample */ = {
+			isa = PBXGroup;
+			children = (
+				209FA7C41CB3C5E400DF0CC8 /* JQSideSlipViewController */,
+				209FA7C71CB3C5E400DF0CC8 /* ViewController */,
+				209FA7B01CB3C56C00DF0CC8 /* AppDelegate.h */,
+				209FA7B11CB3C56C00DF0CC8 /* AppDelegate.m */,
+				209FA7B31CB3C56C00DF0CC8 /* ViewController.h */,
+				209FA7B41CB3C56C00DF0CC8 /* ViewController.m */,
+				209FA7B61CB3C56C00DF0CC8 /* Main.storyboard */,
+				209FA7B91CB3C56C00DF0CC8 /* Assets.xcassets */,
+				209FA7BB1CB3C56C00DF0CC8 /* LaunchScreen.storyboard */,
+				209FA7BE1CB3C56C00DF0CC8 /* Info.plist */,
+				209FA7AD1CB3C56C00DF0CC8 /* Supporting Files */,
+			);
+			path = JQSideSlipExample;
+			sourceTree = "<group>";
+		};
+		209FA7AD1CB3C56C00DF0CC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				209FA7AE1CB3C56C00DF0CC8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		209FA7C41CB3C5E400DF0CC8 /* JQSideSlipViewController */ = {
+			isa = PBXGroup;
+			children = (
+				209FA7C51CB3C5E400DF0CC8 /* JQSideSlipViewController.h */,
+				209FA7C61CB3C5E400DF0CC8 /* JQSideSlipViewController.m */,
+			);
+			path = JQSideSlipViewController;
+			sourceTree = "<group>";
+		};
+		209FA7C71CB3C5E400DF0CC8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				209FA7C81CB3C5E400DF0CC8 /* LeftViewController.h */,
+				209FA7C91CB3C5E400DF0CC8 /* LeftViewController.m */,
+				209FA7CA1CB3C5E400DF0CC8 /* MainViewController.h */,
+				209FA7CB1CB3C5E400DF0CC8 /* MainViewController.m */,
+				209FA7CC1CB3C5E400DF0CC8 /* TabBarController.h */,
+				209FA7CD1CB3C5E400DF0CC8 /* TabBarController.m */,
+				209FA7CE1CB3C5E400DF0CC8 /* ViewControllerFour.h */,
+				209FA7CF1CB3C5E400DF0CC8 /* ViewControllerFour.m */,
+				209FA7D01CB3C5E400DF0CC8 /* ViewControllerOne.h */,
+				209FA7D11CB3C5E400DF0CC8 /* ViewControllerOne.m */,
+				209FA7D21CB3C5E400DF0CC8 /* ViewControllerThree.h */,
+				209FA7D31CB3C5E400DF0CC8 /* ViewControllerThree.m */,
+				209FA7D41CB3C5E400DF0CC8 /* ViewControllerTwo.h */,
+				209FA7D51CB3C5E400DF0CC8 /* ViewControllerTwo.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		209FA7A91CB3C56C00DF0CC8 /* JQSideSlipExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209FA7C11CB3C56C00DF0CC8 /* Build configuration list for PBXNativeTarget "JQSideSlipExample" */;
+			buildPhases = (
+				209FA7A61CB3C56C00DF0CC8 /* Sources */,
+				209FA7A71CB3C56C00DF0CC8 /* Frameworks */,
+				209FA7A81CB3C56C00DF0CC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JQSideSlipExample;
+			productName = JQSideSlipExample;
+			productReference = 209FA7AA1CB3C56C00DF0CC8 /* JQSideSlipExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		209FA7A21CB3C56C00DF0CC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Evan;
+				TargetAttributes = {
+					209FA7A91CB3C56C00DF0CC8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 209FA7A51CB3C56C00DF0CC8 /* Build configuration list for PBXProject "JQSideSlipExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 209FA7A11CB3C56C00DF0CC8;
+			productRefGroup = 209FA7AB1CB3C56C00DF0CC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				209FA7A91CB3C56C00DF0CC8 /* JQSideSlipExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		209FA7A81CB3C56C00DF0CC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209FA7BD1CB3C56C00DF0CC8 /* LaunchScreen.storyboard in Resources */,
+				209FA7BA1CB3C56C00DF0CC8 /* Assets.xcassets in Resources */,
+				209FA7B81CB3C56C00DF0CC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		209FA7A61CB3C56C00DF0CC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209FA7DB1CB3C5E400DF0CC8 /* ViewControllerOne.m in Sources */,
+				209FA7D91CB3C5E400DF0CC8 /* TabBarController.m in Sources */,
+				209FA7D61CB3C5E400DF0CC8 /* JQSideSlipViewController.m in Sources */,
+				209FA7DC1CB3C5E400DF0CC8 /* ViewControllerThree.m in Sources */,
+				209FA7DA1CB3C5E400DF0CC8 /* ViewControllerFour.m in Sources */,
+				209FA7D81CB3C5E400DF0CC8 /* MainViewController.m in Sources */,
+				209FA7D71CB3C5E400DF0CC8 /* LeftViewController.m in Sources */,
+				209FA7B51CB3C56C00DF0CC8 /* ViewController.m in Sources */,
+				209FA7DD1CB3C5E400DF0CC8 /* ViewControllerTwo.m in Sources */,
+				209FA7B21CB3C56C00DF0CC8 /* AppDelegate.m in Sources */,
+				209FA7AF1CB3C56C00DF0CC8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		209FA7B61CB3C56C00DF0CC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				209FA7B71CB3C56C00DF0CC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		209FA7BB1CB3C56C00DF0CC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				209FA7BC1CB3C56C00DF0CC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		209FA7BF1CB3C56C00DF0CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		209FA7C01CB3C56C00DF0CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		209FA7C21CB3C56C00DF0CC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JQSideSlipExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evan.JQSideSlipExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		209FA7C31CB3C56C00DF0CC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JQSideSlipExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.evan.JQSideSlipExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		209FA7A51CB3C56C00DF0CC8 /* Build configuration list for PBXProject "JQSideSlipExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209FA7BF1CB3C56C00DF0CC8 /* Debug */,
+				209FA7C01CB3C56C00DF0CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209FA7C11CB3C56C00DF0CC8 /* Build configuration list for PBXNativeTarget "JQSideSlipExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209FA7C21CB3C56C00DF0CC8 /* Debug */,
+				209FA7C31CB3C56C00DF0CC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 209FA7A21CB3C56C00DF0CC8 /* Project object */;
+}
